@@ -1,16 +1,19 @@
 # tabler_icons
-### !!! this repository forked of https://github.com/bigbadbob2003/tabler_icons 😉
+This repository is an auto generated version of the official tabler icon pack. This repository takes care of generating all the icons in the font pack and then lists them down.
 
 The official [Tabler Icon Pack](https://github.com/tabler/tabler-icons).
 
-official Tabler icons version: 1.53
+official Tabler icons version: 1.68
 
 ## pubspec.yaml
 ```yml
 dependencies:
   flutter:
     sdk: flutter
-  tabler_icons: ^1.2.2
+  tabler_icons: 
+    git:
+      url: git://github.com/decafdevs/tabler-icons.git
+      ref: master
 ```
 
 ## Usage
@@ -26,4 +29,3 @@ class MyWidget extends StatelessWidget {
   }
 }
 ```
-![alt text](https://github.com/bigbadbob2003/tabler_icons/raw/master/.github/screenshot.png)
