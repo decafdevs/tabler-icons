@@ -6,6 +6,13 @@ class TablerIcon {
   final String name;
   final IconData icon;
 
+  String get reactIconName {
+    return name
+        .split('-')
+        .map((s) => s[0].toUpperCase() + s.substring(1))
+        .join('');
+  }
+
   TablerIcon(this.name, this.icon);
 }
 
